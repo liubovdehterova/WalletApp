@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ebebeb;
+  padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header__l {
+  margin-right: 10px;
+  width: 45%;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.card__title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-balance {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card__available {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a0a0a0;
+}
+
+.card__icon {
+  background: gainsboro;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #cbcbcb;
+  font-size: 18px;
+}
+
+.card__inner {
+  text-align: end;
+}
+
+.card__pay .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.transactions {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+}
+
+.transactions__content {
+  width: 80%;
+}
+
+.transactions__logo {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  background: #949494;
+  border-radius: 5px;
+}
+
+.transactions__content__inner {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.transactions__content__inner-balance {
+  display: flex;
+  align-content: center;
+}
+
+.transactions__content__inner__pay {
+  margin-right: 10px;
+}
+.transactions__content__inner__btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: #808080;
+}
+.transactions__content__inner__interest {
+  color: #808080;
+}
+.transactions__content__inner__description {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #808080;
+}
